@@ -25,6 +25,7 @@ void PIOT::listen() {
             digitalWrite(13,LOW);
         }
         Serial.println(receivedData);
+        
     }
     
 }

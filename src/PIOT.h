@@ -7,7 +7,7 @@ public:
     void begin();
     void listen();
 private:
-    // Các biến và hàm riêng tư nếu cần
+    
 };
 
 #endif
