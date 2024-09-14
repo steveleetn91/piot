@@ -14,7 +14,6 @@ You can download this library after that upload to library of arduino library. N
       Serial.begin(9600);
       piot.begin();
       }
-
       void loop() {
       piot.listen();
       }`
