@@ -8,15 +8,19 @@ PIOT is a framework support PHP Control mainboards as: `Arduino, Atmega2560, Esp
 
 You can download this library after that upload to library of arduino library. Next step you need add this
 
-   `#include <PIOT.h>
+   ```cpp
+      #include <PIOT.h>
       PIOT piot;
+
       void setup() {
-      Serial.begin(9600);
-      piot.begin();
+         Serial.begin(9600);
+         piot.begin();
       }
+
       void loop() {
-      piot.listen();
-      }`
+         piot.listen();
+      }
+   ```
 
 # Don't forget
 
