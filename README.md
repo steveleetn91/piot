@@ -24,7 +24,7 @@ You can download this library after that upload to library of arduino library. N
 
 # Don't forget
 
-Don't forget close Arduino IDE after upload successfully. Because it can have problem about permission while PHP connect.
+Don't forget close Arduino IDE after upload successfully. Because it can appear problem about permission while PHP connect.
 
 # PHP
 
