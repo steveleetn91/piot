@@ -79,13 +79,16 @@ void PIOT::phpEvent(String receivedData) {
                                 }
                         }
                     }
-
+                    // on and off 
                     if(text.indexOf("A450") != -1) {
                         lcd.noBacklight();
                     } else if(text.indexOf("A451") != -1) {
                         lcd.backlight();
                     }
-
+                    // clear screen 
+                    if(text.indexOf("A45EMPTY") != -1) {
+                        lcd.clear();
+                    } 
             }
         }
 }
